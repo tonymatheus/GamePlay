@@ -12,9 +12,10 @@ export const styles = StyleSheet.create({
     padding: 6,
   },
   title: {
-    flex: 1,
+    width: "60%",
     color: theme.colors.reading,
     textAlign: "center",
+    fontWeight: "bold",
   },
   iconWrapper: {
     width: 56,

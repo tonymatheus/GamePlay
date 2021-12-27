@@ -20,18 +20,16 @@ export const SignIn = () => {
       />
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize {`\n`}
-          suas jogatinas{`\n`}
+          Conecte-se {'\n'}e organize suas jogatinas{'\n'}
           Facilmente
         </Text>
-
         <Text style={styles.subtitle}>
-          Crie grupos para jogar seus games{`\n`}
+          Crie grupos para jogar seus games{'\n'}
           favoritos com seus amigos
         </Text>
       </View>
-      <View style={styles.viewBtn}>
-        <ButtonIcon title="Entrar com Discord" />
+      <View style={styles.viewButton}>
+        <ButtonIcon title="Entrar com Discord" activeOpacity={0.7} />
       </View>
     </View>
   );
