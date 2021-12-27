@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: `${theme.colors.background}`,
+    backgroundColor: `${theme.colors.secondary100}`,
     width: "100%",
   },
 
@@ -19,15 +19,19 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 50,
   },
   title: {
-    color: theme.colors.reading,
+    color: theme.colors.heading,
     fontSize: 40,
     marginBottom: 16,
+    fontFamily: theme.fonts.title700,
+    lineHeight: 40,
   },
   subtitle: {
-    color: theme.colors.reading,
+    color: theme.colors.heading,
     fontSize: 15,
     textAlign: "center",
     marginBottom: 54,
+    fontFamily: theme.fonts.title500,
+    lineHeight: 25,
   },
   viewButton: {
     marginBottom: 50,

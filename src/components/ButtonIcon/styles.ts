@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     width: "60%",
-    color: theme.colors.reading,
+    color: theme.colors.heading,
     textAlign: "center",
     fontWeight: "bold",
   },
