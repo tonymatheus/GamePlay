@@ -12,7 +12,7 @@ export function CategorySelect() {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ paddingRight: 40 }}
       >
-        {}
+        { }
       </ScrollView>
     </View>
   );
